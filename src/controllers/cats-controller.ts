@@ -19,5 +19,9 @@ export async function getCatByID(id: string) {
 export async function addCat(newCat: NewCat) {
     const cats: Cat[] = await getCats();
     cats.push({ id: Date.now(), ...newCat });
-    Bun.write(`src/data/cats.json`, JSON.stringify(cats));
+    try {
+        Bun.write(`src/data/cats.json`, JSON.stringify(cats));
+    } catch (error) {
+        throw new Error("failed to create the new cat");
+    }
 }

@@ -1,0 +1,4 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "@typescript-eslint/no-inferrable-types": ["error", { "ignoreParameters": true }]
+}

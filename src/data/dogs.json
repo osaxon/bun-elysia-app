@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Buddy",
+        "age": 3,
+        "likes": [
+            "fetching balls",
+            "chasing squirrels",
+            "belly rubs"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Max",
+        "age": 3,
+        "likes": [
+            "playing with toys",
+            "going for walks",
+            "treats"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Bailey",
+        "age": 4,
+        "likes": [
+            "running in the park",
+            "sniffing everything",
+            "cuddling"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Charlie",
+        "age": 2,
+        "likes": [
+            "playing with a frisbee",
+            "chasing after sticks",
+            "naptime"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Daisy",
+        "age": 5,
+        "likes": [
+            "exploring the backyard",
+            "watching birds",
+            "barking at the mailman"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Sadie",
+        "age": 1,
+        "likes": [
+            "swimming in the pond",
+            "playing with a rope toy",
+            "snuggling"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Rocky",
+        "age": 6,
+        "likes": [
+            "hiking in the mountains",
+            "chewing on bones",
+            "napping in the sun"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Milo",
+        "age": 2,
+        "likes": [
+            "chasing his tail",
+            "exploring the backyard",
+            "barking at squirrels"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Lily",
+        "age": 2,
+        "likes": [
+            "playing with other dogs",
+            "going on car rides",
+            "digging in the garden"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Bentley",
+        "age": 7,
+        "likes": [
+            "fetching frisbees",
+            "playing catch",
+            "snacking on dog biscuits"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Rosie",
+        "age": 4,
+        "likes": [
+            "rolling in the grass",
+            "chasing butterflies",
+            "wagging her tail"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Rusty",
+        "age": 3,
+        "likes": [
+            "running in the dog park",
+            "playing with squeaky toys",
+            "enjoying a good scratch"
+        ]
+    }
+]

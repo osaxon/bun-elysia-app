@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { client } from "../lib/client";
+const response = await client("/test", { method: "GET" });
+---
+
+<Layout title="Welcome to Astro.">
+    <main>
+        <pre>
+            <code>
+                {JSON.stringify(response.data, null, 4)}
+            </code>
+        </pre>
+    </main>
+</Layout>
