@@ -1,30 +1,10 @@
 import { Elysia } from "elysia";
+import { catsRoutes } from "./routes/cats-routes";
 
-const __dirName = import.meta.dir;
+const app = new Elysia();
 
-async function getCats() {
-    const data = Bun.file(`${__dirName}/data/cats.json`);
-    const cats = await data.json();
-    return cats;
-}
-
-const app = new Elysia()
-    .get("/", () => "Hello Elysia")
-    .get("/api", () => {
-        console.log(Bun.env.PORT, "<--- port num");
-        return {
-            message: "api route",
-            other: ["param1", "param2"],
-            port: Bun.env.PORT || process.env.PORT || null,
-            env: Bun.env,
-        };
-    })
-    .get("/api/books/:id", ({ params: { id } }) => {
-        return { id };
-    })
-    .get("/api/cats", () => getCats())
-    .listen(process.env.PORT ?? 9090);
-
-console.log(
-    `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`
-);
+app.group("/v1", (app) =>
+    app.get("/", () => "Using v1").use(catsRoutes)
+).listen(8080, ({ port }) => {
+    console.log(`Listening on port: ${port}`);
+});
