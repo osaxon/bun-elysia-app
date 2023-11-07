@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Violetta",
+        "age": 3,
+        "likes": [
+            "food",
+            "blankets",
+            "sleeping"
+        ]
+    },
+    {
+        "name": "Berlioz",
+        "age": 3,
+        "likes": [
+            "food",
+            "playing",
+            "hiding"
+        ]
+    },
+    {
+        "name": "Whiskers",
+        "age": 4,
+        "likes": [
+            "toys",
+            "sunbathing",
+            "purring"
+        ]
+    },
+    {
+        "name": "Mittens",
+        "age": 2,
+        "likes": [
+            "yarn",
+            "chasing laser pointers",
+            "napping"
+        ]
+    },
+    {
+        "name": "Felix",
+        "age": 5,
+        "likes": [
+            "milk",
+            "exploring",
+            "bird-watching"
+        ]
+    },
+    {
+        "name": "Luna",
+        "age": 1,
+        "likes": [
+            "fish",
+            "scratching posts",
+            "cuddling"
+        ]
+    },
+    {
+        "name": "Garfield",
+        "age": 6,
+        "likes": [
+            "lasagna",
+            "television",
+            "lounging"
+        ]
+    },
+    {
+        "name": "Simba",
+        "age": 2,
+        "likes": [
+            "adventure",
+            "hakuna matata",
+            "pouncing"
+        ]
+    },
+    {
+        "name": "Nala",
+        "age": 2,
+        "likes": [
+            "friendship",
+            "adventure",
+            "exploring the Pride Lands"
+        ]
+    },
+    {
+        "name": "Salem",
+        "age": 7,
+        "likes": [
+            "magic",
+            "sardines",
+            "bewitching"
+        ]
+    },
+    {
+        "name": "Whiskers II",
+        "age": 4,
+        "likes": [
+            "toys",
+            "sunbathing",
+            "purring"
+        ]
+    }
+]
